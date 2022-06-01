@@ -1,0 +1,59 @@
+:root {
+    --color1: #05b1b1;
+    --color2: #52339a;
+
+}
+
+.color1 {
+    color: var(--color1);
+}
+
+.color2 {
+    color: var(--color2);
+}
+.about {
+    background-color: #eeeeee;
+}
+.icon_wrap {
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color2);
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 30px;
+    color: var(--color1);
+    margin: 0 auto;
+}
+
+.line {
+    width: 25%;
+    height: 3px;
+    margin: 0 auto;
+    background: var(--color1);
+}
+/* КУРС ДЛЯ ТЕХ КТО */
+.forwho-border {
+    border: 3px solid;
+    padding: 40px 0;
+    color: var(--color1);
+}
+.forwho h5 {
+    border: 3px solid;
+    padding: 40px;
+    margin: 5px 0;
+}
+
+/* зАКАЗАТЬ */
+.order_btn {
+    color: white;
+    background-color: var(--color2);
+    transition: all 0.5s ease;
+    padding: 10px 40px;
+    margin: 20px 0;
+}
+.order_btn:hover {
+    background-color: var(--color1);
+    color: white;
+}
